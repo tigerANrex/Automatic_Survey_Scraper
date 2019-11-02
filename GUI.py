@@ -13,7 +13,7 @@ restaurant = StringVar(root)
 restaurant.set(Options[0])#default option
 
 #logo
-photo = PhotoImage(file = r'C:\Users\ducta\Documents\VandyHacks\logo_cropped.png')
+photo = PhotoImage(file = r'C:\Users\ducta\Documents\VandyHacks\Automatic_Survey_scraper\logo_cropped.png')
 
 logolabel = Label(root,image=photo).pack(side= TOP, pady = 0)
 
